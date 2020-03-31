@@ -2,5 +2,32 @@
   "pages": [
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#9ca8b8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+
+    "color":"#000000",
+    "selectedColor": "#8696a7",
+    "backgroundColor": "#ececea",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_act.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分页",
+        "iconPath": "assets/tabbar/select.png",
+        "selectedIconPath": "assets/tabbar/select_act.png"
+      }
+    ]
+  }
 }
